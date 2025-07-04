@@ -1,0 +1,30 @@
+# Arquivos de compilação Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+# Pastas de build do Maven/Gradle
+/target/
+/build/
+# Logs
+*.log
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+# Arquivos de configuração de ambiente
+.env
+.DS_Store
+# Dependências do Maven/Gradle (se não estiverem no target/build)
+/lib/
+# Arquivos de dados de banco de dados locais
+*.db
+*.sqlite
+# Arquivos de cache do Neo4j Desktop
+/data/databases/
+/data/transactions/
+/logs/
